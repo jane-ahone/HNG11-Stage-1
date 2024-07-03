@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Goals</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <span class="date" data-testid="currentDayOfTheWeek">Date</span>
+      <div>
+        <span>UTC Time:</span>
+        <span class="current-time" data-testid="currentUTCTime"> Time</span>
+      </div>
+    </div>
+    <div class="intro">
+      <div class="intro-left">
+        <p class="intro-name">Hello, I'm Jane</p>
+        <div class="intro-media-query-image">
+          <img
+            src="./assets/slack-profile-pic-512-x-512.png"
+            alt="Profile picture"
+            data-testid="slackProfilePicture"
+          />
+        </div>
+        <div class="intro-media-query-image-small">
+          <img
+            src="./assets/slack-profile-pic-256x256.jpg"
+            alt="Profile picture"
+            data-testid="slackProfilePicture"
+          />
+        </div>
+        <div class="intro-media-query-image-extra-small">
+          <img
+            src="./assets/slack-profile-pic-extrasmall-102x102.png"
+            alt="Profile picture"
+            data-testid="slackProfilePicture"
+          />
+        </div>
+
+        <p class="intro-role">
+          Computer Engineering <br />
+          Student
+        </p>
+
+        <p class="summary" style="width: fit-content">
+          Here are my goals for the next two years in <br />
+          relation to the technological world. It emphasises on <br />
+          foundational learning and specialization, with practical applications
+        </p>
+      </div>
+      <div class="intro-right">
+        <img
+          src="./assets/slack-profile-pic-512-x-512.png"
+          data-testid="slackProfilePicture"
+        />
+      </div>
+    </div>
+    <div class="goals">
+      <div class="goals-first-year">
+        <p class="goals-year-heading">2024-2025</p>
+
+        <ul>
+          <li>
+            Complete foundational courses emphasizing programming languages such
+            as Python, Java, and Javascript.
+          </li>
+          <li>Grasp essential data structures and algorithms,</li>
+
+          <li>
+            Enroll in beginner to intermediate courses in artificial
+            intelligence and machine learning.
+          </li>
+          <li>
+            Start projects that incorporate AI in simple real-world scenarios
+            like chatbots or recommendation systems.
+          </li>
+          <li>
+            Learn about web and mobile app development platforms, focusing on
+            React for web applications and Swift for iOS apps.
+          </li>
+        </ul>
+        <p class="goals-subheading">Specialized Knowledge</p>
+        <ul>
+          <li>
+            intermediate courses in artificial intelligence and machine
+            learning.
+          </li>
+          <li>
+            Start projects that incorporate AI in simple real-world scenarios
+            like chatbots or recommendation systems.
+          </li>
+          <li>
+            Learn about web and mobile app development platforms, focusing on
+            Javascript for web applications
+          </li>
+        </ul>
+      </div>
+      <div class="goals-second-year">
+        <p class="goals-year-heading">2025-2026</p>
+        <ul>
+          <li>
+            Participate in internships or gain hands-on experience in the tech
+            industry.
+          </li>
+          <li>
+            Attend coding bootcamps focusing on application development and/or
+            AI,
+          </li>
+          <li>Contribute to open-source projects .</li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <div class="outro">
+      <div class="contact">
+        Interested in connecting? Let's meet on Slack
+        <p class="name" data-testid="slackDisplayName">
+          Slack Display Namee: Jane-Jazzy
+        </p>
+        <p class="email" data-testid="slackEmail">
+          Slack Email: jane.ahone.eloundou@gmail.com
+        </p>
+      </div>
+      <p>
+        Interested in leveling up your skills? Check out
+        <a href="http://hng.tech/learn" data-testid="hngLink"> HNG-Learn</a>
+      </p>
+      <p>
+        Want to scrape your website? Check out
+        <a href="http://scrapeanyweb.site" data-testid="scrapeanywebLink"
+          >Scrapeanyweb</a
+        >
+      </p>
+      <p>
+        Interested in Optimising your website on browsers? Check out
+        <a href="http://keyword.dog" data-testid="keywordLink">Keyword.dog</a>
+      </p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

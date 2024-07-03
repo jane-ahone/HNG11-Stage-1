@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  background: #f19f79;
+  font-family: "Poppins";
+  font-size: 16px;
+  margin: 0 4rem;
+  box-sizing: border-box;
+}
+body > * {
+  color: #03045e;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  column-gap: 1.5rem;
+}
+
+.name,
+.email {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.time {
+  display: flex;
+}
+.time > * {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0.7rem;
+}
+.intro {
+  display: flex;
+  justify-content: space-between;
+}
+.intro-name {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 0%;
+}
+.intro-role {
+  margin-top: 0.5rem;
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 116px;
+  margin-bottom: 0.5rem;
+}
+.intro-media-query-image,
+.intro-media-query-image-small,
+.intro-media-query-image-extra-small {
+  display: none;
+}
+.summary {
+  font-size: 1.3rem;
+  font-weight: 500;
+  max-width: 65%;
+}
+.goals-title-heading {
+  color: #fbf8cc;
+  font-size: 6rem;
+  font-weight: 800;
+
+  line-height: 116px;
+}
+.goals li {
+  color: var(--Dark-Blue, #03045e);
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px; /* 183.333% */
+}
+.goals-year-heading {
+  font-size: 1.7rem;
+  font-weight: 800;
+  line-height: 2.2rem; /* 166.667% */
+  margin-top: 3rem;
+}
+.goals-subheading {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+li {
+  text-align: justify;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 44px; /* 183.333% */
+}
+hr {
+  margin-top: 5rem;
+  border: none;
+  border-top: 3px double #03045e;
+  color: #03045e;
+  overflow: visible;
+  text-align: center;
+  height: 0.3rem;
+}
+
+.outro {
+  margin-top: 1rem;
+  text-align: center;
+}
+.outro .contact {
+  text-align: left;
+  margin-bottom: 5rem;
+}
+@media (max-width: 1020px) {
+  .intro {
+    display: initial;
+    text-align: center;
+  }
+  .intro-media-query-image {
+    display: initial;
+    text-align: center;
+  }
+  .intro-right {
+    display: none;
+  }
+  .intro-role {
+    font-size: 2rem;
+    line-height: normal;
+  }
+  br {
+    display: none;
+  }
+  .summary {
+    max-width: none;
+  }
+  .intro-name {
+    margin: 2rem;
+    text-align: left;
+  }
+}
+@media (max-width: 550px) {
+  .intro-media-query-image-small {
+    display: initial;
+    text-align: center;
+  }
+  .intro-media-query-image {
+    display: none;
+  }
+  li {
+    text-align: initial;
+  }
+  .name,
+  .email {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 375px) {
+  .intro-media-query-image-small {
+    display: none;
+  }
+  .intro-media-query-image-extra-small {
+    display: initial;
+    text-align: center;
+  }
+  .intro-name {
+    font-size: 1.3rem;
+  }
+
+  .name,
+  .email {
+    font-size: 0.8rem;
+  }
+}
